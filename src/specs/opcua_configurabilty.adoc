@@ -1,0 +1,49 @@
+= [[topOfPage]]  IEC 61499 Compliance Profile for Configurabilty using OPC UA
+:toc: macro
+:lang: en
+:toclevels: 3
+:sectnums:
+:imagesdir: ./src/specs/img
+ifdef::env-github[]
+:imagesdir: img
+endif::[]
+
+
+
+== Foreword
+TBD
+
+toc::[]
+
+
+== Scope
+This document specifies the features of https://webstore.iec.ch/publication/5506[IEC 61499-1] and https://webstore.iec.ch/publication/5507[IEC 61499-2], according to the guidelines given in https://webstore.iec.ch/publication/5508[IEC 61499-4], to be implemented in order to use OPC UA for the configurabilty of devices from multiple vendors by software tools of multiple suppliers.
+
+The other provisions defined in IEC 614499-4, i.e., interoperabilty and portabilty, are out of scope of this specifications. 
+For these other compliance profiles specifiying these provisions may be implemented. 
+
+
+== Normative References
+The following normative documents contain provisions and references to other normative documents which, through reference in this text, constitute provisions of this specification. 
+At the time of publication, the editions indicated were valid. 
+All normative documents are subject to revision, and parties to this agreement are encouraged to investigate the possibility of applying the most recent editions of the normative documents indicated below. 
+Members of the link:https://www.iec.ch/[IEC] and link:https://www.iso.ch/[ISO] maintain registers of currently valid International Standards.
+
+  - https://webstore.iec.ch/publication/4552[IEC 61131-3 - Programmable controller systems, Part 3 - Programming Languages]
+  - https://webstore.iec.ch/publication/5506[IEC 61499-1 - Function blocks, Part 1 - Architecture]
+  - https://webstore.iec.ch/publication/5507[IEC 61499-2 - Function Blocks, Part 2 - Software tool requirements]
+  - https://webstore.iec.ch/publication/5508[IEC 61499-4 - Function Blocks, Part 4 - Rules for compliance profiles]
+
+== Terms and Definitions
+
+== Portability Provisions
+Portability is out of scope of this IEC 61499 compliance profile. Implementers may use any other compliance profile specifying portability provisions (e.g., https://holobloc.com/doc/ita/index.htm:[IEC 61499 Compliance Profile for Feasibility Demonstrations]).
+
+== Interoperability Provisions
+Interoperability is out of scope of this IEC 61499 compliance profile. Implementers may use any other compliance profile specifying interoperability provisions (e.g., https://holobloc.com/doc/ita/index.htm:[IEC 61499 Compliance Profile for Feasibility Demonstrations]).
+
+== Configurabilty Provisions
+TBD
+
+== Test Requirements
+TBD
