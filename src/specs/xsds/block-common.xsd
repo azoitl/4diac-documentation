@@ -25,8 +25,8 @@
     <xs:element name="InputVars"    type="InputVars"    minOccurs="0" maxOccurs="1"/>
     <xs:element name="OutputVars"   type="OutputVars"   minOccurs="0" maxOccurs="1"/>
     <xs:element name="InOutVars"    type="InOutVars"    minOccurs="0" maxOccurs="1"/>
-    <xs:element name="Sockets"      type="Sockets"      minOccurs="0" maxOccurs="1"/>
     <xs:element name="Plugs"        type="Plugs"        minOccurs="0" maxOccurs="1"/>
+    <xs:element name="Sockets"      type="Sockets"      minOccurs="0" maxOccurs="1"/>
   </xs:sequence>
 </xs:complexType>
 
@@ -80,7 +80,7 @@
 </xs:complexType>
 
 <xs:complexType name="With">
-  <xs:attribute name="var" type="Identifier" use="required"/>
+  <xs:attribute name="Var" type="Identifier" use="required"/>
 </xs:complexType>
 
 <xs:complexType name="AdapterDeclaration">
@@ -136,5 +136,21 @@
   <xs:attribute name="Event"      type="xs:string" use="required"/>
   <xs:attribute name="Parameters" type="xs:string" use="optional"/>
 </xs:attributeGroup>
+
+<xs:complexType name="ST">
+  <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attribute name="Text" type="xs:string" use="optional"/>
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
+<xs:complexType name="Other">
+  <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attribute name="Language" type="xs:string" use="required"/>
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
 
 </xs:schema>
